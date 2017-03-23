@@ -9,21 +9,25 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
 	background-color: rgb(255,255,255);
-	z-index: 1
+	z-index: 1;
 }
 
 #head2 {
 	border-bottom: 2px solid grey;
 	font-size: 20px;
 	background-color: rgb(255,255,255);
+	z-index: 1;
+}
+
+#headseparator {
+	border-top: 1px solid grey;
+	background-color: rgb(255,255,255);
+	z-index: 1;
 }
 
 #nav {
 	border-bottom: 1px solid grey;
 	font-size: 15px;
 	background-color: rgb(255,255,255);
-}
-
-.container {
-	width: 100%;
+	z-index: 1;
 }
