@@ -8,16 +8,19 @@ body {
 	max-height: 100px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
+	background-color: rgb(255,255,255);
 }
 
 #head2 {
 	border-bottom: 2px solid grey;
 	font-size: 20px;
+	background-color: rgb(255,255,255);
 }
 
 #nav {
 	border-bottom: 1px solid grey;
 	font-size: 15px;
+	background-color: rgb(255,255,255);
 }
 
 .container {
