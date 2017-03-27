@@ -1,17 +1,18 @@
 
 
 #head1 {
-	color: rgb(240,240,240);
+	color: rgb(230,230,230);
         min-height: 100px;
 	max-height: 100px;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 50px;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-family: "Arial";
+	font-size: 30px;
 	z-index: 1;
 	            background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgb(30,30,30), black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgb(30,30,30), black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(30,30,30), black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb(30,30,30), black); /* Standard syntax */
+    background: -webkit-linear-gradient(rgb(50,50,50), black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(50,50,50), black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(50,50,50), black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(50,50,50), black); /* Standard syntax */
 
 }
 
@@ -43,4 +44,15 @@
 img.resize{
 	width:20%;
 	height:200px;
+}
+
+.button {
+    background-color: rgb(60,60,60); /* Green */
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
