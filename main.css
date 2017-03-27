@@ -7,6 +7,7 @@
 	/*font-family: "Times New Roman", Times, serif;*/
 	font-family: "Arial";
 	font-size: 30px;
+	border-bottom: 2px solid rgb(220,220,220);
 	z-index: 1;
 	            background: black; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgb(50,50,50), black); /* For Safari 5.1 to 6.0 */
