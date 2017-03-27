@@ -7,11 +7,11 @@
 	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
 	z-index: 1;
-	    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax */
+	    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, white); /* Standard syntax */
 }
 
 #head2 {
