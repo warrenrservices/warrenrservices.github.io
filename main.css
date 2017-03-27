@@ -37,7 +37,6 @@ body {
 
 .container {
 	width: 100%;
-	border: 1px solid rgb(220,220,220);
 }
 
 img.resize{
@@ -64,6 +63,11 @@ img.resize{
     padding-top:5px;
 }
 
-#separator {
+.separator {
 	background-color: rgb(255,255,255);
 }
+
+.content {
+	border: 1px solid rgb(220,220,220);
+}
+
