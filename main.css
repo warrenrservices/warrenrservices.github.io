@@ -33,7 +33,7 @@
 
 #nav {
 	border-top: 1px rgb(65,65,65);
-	background-color: rgb(230,230,230);
+	background-color: rgb(50,50,50);
 	z-index: 1;
 	padding:1px;
 }
@@ -48,10 +48,9 @@ img.resize{
 }
 
 .button {
-    background-color: rgb(60,60,60); /* Green */
+    background-color: rgb(50,50,50);
     border: none;
     color: white;
-    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
