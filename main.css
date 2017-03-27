@@ -148,7 +148,7 @@ img.resize{
 .subheader {
 	/*background-color: rgb(50,50,50);*/
 	background: url("checker.png");
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	color:white;
 	min-height:20px;
 	max-height:20px;
