@@ -28,12 +28,6 @@ body {
 	max-height: 200px:
 }
 
-#headseparator {
-	border-top: 1px solid rgb(211,211,211);
-	background-color: rgb(255,255,255);
-	z-index: 1;
-}
-
 #nav {
 	border-top: 1px rgb(65,65,65);
 	background-color: rgb(50,50,50);
@@ -58,4 +52,16 @@ img.resize{
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+}
+
+.info {
+    z-index: 1;
+}
+
+#footer {
+    background-color: rgb(70,70,70);
+}
+
+#separator {
+	background-color: rgb(255,255,255);
 }
