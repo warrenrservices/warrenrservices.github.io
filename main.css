@@ -146,7 +146,8 @@ img.resize{
 }
 
 .subheader {
-	background-color: rgb(50,50,50);
+	/*background-color: rgb(50,50,50);*/
+	background-image: "checker.png";
 	color:white;
 	min-height:20px;
 	max-height:20px;
@@ -154,7 +155,7 @@ img.resize{
 	font-weight:bold;
 	text-align: right;
     border-top-left-radius: 30px 40px;
-    border-top-right-radius: 80px 30px;
+    border-top-right-radius: 30px 40px;
     padding: 18px; 
 
 }
