@@ -11,12 +11,15 @@ body {
 	font-size: 30px;
 	border-bottom: 2px solid rgb(220,220,220);
 	z-index: 1;
-	            background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgb(50,50,50), black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgb(50,50,50), black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(50,50,50), black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb(50,50,50), black); /* Standard syntax */
-
+	        background: url("checker.png");
+        background-repeat: repeat;
+	/*
+	            background: black;  For browsers that do not support gradients
+    background: -webkit-linear-gradient(rgb(50,50,50), black);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(rgb(50,50,50), black);  For Opera 11.1 to 12.0
+   background: -moz-linear-gradient(rgb(50,50,50), black);  For Firefox 3.6 to 15
+    background: linear-gradient(rgb(50,50,50), black); 
+*/
 }
 
 #head2 {
@@ -146,9 +149,7 @@ img.resize{
 }
 
 .subheader {
-	/*background-color: rgb(50,50,50);*/
-	background: url("checker.png");
-	background-repeat: repeat;
+	background-color: rgb(50,50,50);
 	color:white;
 	min-height:20px;
 	max-height:20px;
