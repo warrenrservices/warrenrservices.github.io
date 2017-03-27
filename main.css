@@ -58,7 +58,7 @@ img.resize{
     z-index: 1;
 }
 
-#footer {
+.footer {
     background-color: rgb(70,70,70);
     padding-top:5px;
 }
@@ -73,3 +73,74 @@ img.resize{
 	border: 1px solid rgb(220,220,220);
 }
 
+
+/*nav*/
+.navbar-default {
+  background-color: #83cee3;
+  border-color: #2b92c0;
+}
+.navbar-default .navbar-brand {
+  color: #a7e3f2;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #bbe7ff;
+}
+.navbar-default .navbar-text {
+  color: #a7e3f2;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #a7e3f2;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bbe7ff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bbe7ff;
+  background-color: #2b92c0;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #bbe7ff;
+  background-color: #2b92c0;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2b92c0;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2b92c0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #a7e3f2;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #a7e3f2;
+}
+.navbar-default .navbar-link {
+  color: #a7e3f2;
+}
+.navbar-default .navbar-link:hover {
+  color: #bbe7ff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #a7e3f2;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bbe7ff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bbe7ff;
+    background-color: #2b92c0;
+  }
+}
