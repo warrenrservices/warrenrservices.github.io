@@ -144,3 +144,12 @@ img.resize{
     background-color: #2b92c0;
   }
 }
+
+.subheader {
+	background-color: rgb(50,50,50);
+	color:white;
+	min-height:20px;
+	max-height:20px;
+	font-size:14px;
+	font-style:bold;
+}
