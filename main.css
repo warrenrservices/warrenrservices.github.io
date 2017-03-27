@@ -2,8 +2,8 @@
 
 #head1 {
 	color: rgb(230,230,230);
-        min-height: 100px;
-	max-height: 100px;
+        min-height: 150px;
+	max-height: 150px;
 	/*font-family: "Times New Roman", Times, serif;*/
 	font-family: "Arial";
 	font-size: 30px;
@@ -20,6 +20,7 @@
 	border-bottom: 1px solid rgb(200,200,200);
 	font-size: 20px;
 	background-color: rgb(255,255,255);
+	color: black;
 	z-index: 1;
 }
 
@@ -30,9 +31,8 @@
 }
 
 #nav {
-	border-top: 1px solid grey;
-	border-bottom: 2px solid grey;
-	background-color: rgb(60,60,60);
+	border-top: 1px rgb(65,65,65);
+	background-color: rgb(230,230,230);
 	z-index: 1;
 	padding:1px;
 }
@@ -50,7 +50,7 @@ img.resize{
     background-color: rgb(60,60,60); /* Green */
     border: none;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
