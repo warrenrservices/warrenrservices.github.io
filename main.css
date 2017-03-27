@@ -152,7 +152,7 @@ img.resize{
 	max-height:20px;
 	font-size:14px;
 	font-style:bold;
-	text-align-right;
+	text-align: right;
     border-top-left-radius: 15px 5px;
     border-top-right-radius: 15px 5px;
     padding: 20px; 
